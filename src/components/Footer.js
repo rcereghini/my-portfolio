@@ -11,7 +11,8 @@ export default function Footer() {
           egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in
           tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.
         </p>
-        <form method="post" action="/#">
+        <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+          <input type="hidden" name="form-name" value="contact" />
           <div className="fields">
             <div className="field">
               <label htmlFor="name">Name</label>
@@ -33,7 +34,7 @@ export default function Footer() {
           </ul>
         </form>
         <ul className="contact">
-          <li className="fa-home">{config.address}</li>
+          {/* <li className="fa-home">{config.address}</li> */}
 
           <li className="fa-phone">{config.phone}</li>
 
