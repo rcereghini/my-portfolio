@@ -2,6 +2,7 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
+import avatar from '../assets/images/rcIconMed.jpg';
 import pic1 from '../assets/images/pic01.jpg';
 import pic2 from '../assets/images/pic02.jpg';
 import pic3 from '../assets/images/pic03.jpg';
@@ -16,7 +17,8 @@ const IndexPage = () => (
     <section id="banner">
       <div className="inner">
         <div className="logo">
-          <span className="icon fa-diamond"></span>
+          {/* <span className="icon fa-diamond"></span> */}
+          <img src={avatar} style={{borderRadius: "50%"}} alt="avatar" />
         </div>
         <h2>{config.heading}</h2>
         <p>{config.subHeading}</p>
@@ -30,7 +32,7 @@ const IndexPage = () => (
             <img src={pic1} alt="" />
           </a>
           <div className="content">
-            <h2 className="major">Magna arcu feugiat</h2>
+            <h2 className="major">Languages</h2>
             <p>
               Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
               turpis ante, nullam sit amet turpis non, sollicitudin posuere
@@ -51,7 +53,7 @@ const IndexPage = () => (
             <img src={pic2} alt="" />
           </a>
           <div className="content">
-            <h2 className="major">Tempus adipiscing</h2>
+            <h2 className="major">Frameworks and Related</h2>
             <p>
               Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
               turpis ante, nullam sit amet turpis non, sollicitudin posuere
@@ -72,7 +74,91 @@ const IndexPage = () => (
             <img src={pic3} alt="" />
           </a>
           <div className="content">
-            <h2 className="major">Nullam dignissim</h2>
+            <h2 className="major">Libraries</h2>
+            <p>
+              Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
+              turpis ante, nullam sit amet turpis non, sollicitudin posuere
+              urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim
+              dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
+              cursus.
+            </p>
+            <a href="/#" className="special">
+              Learn more
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="two" className="wrapper alt spotlight style2">
+        <div className="inner">
+          <a href="/#" className="image">
+            <img src={pic2} alt="" />
+          </a>
+          <div className="content">
+            <h2 className="major">Business Tools</h2>
+            <p>
+              Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
+              turpis ante, nullam sit amet turpis non, sollicitudin posuere
+              urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim
+              dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
+              cursus.
+            </p>
+            <a href="/#" className="special">
+              Learn more
+            </a>
+          </div>
+        </div>
+      </section>
+      
+      <section id="three" className="wrapper spotlight style3">
+        <div className="inner">
+          <a href="/#" className="image">
+            <img src={pic3} alt="" />
+          </a>
+          <div className="content">
+            <h2 className="major">Marketing</h2>
+            <p>
+              Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
+              turpis ante, nullam sit amet turpis non, sollicitudin posuere
+              urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim
+              dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
+              cursus.
+            </p>
+            <a href="/#" className="special">
+              Learn more
+            </a>
+          </div>
+        </div>
+      </section>
+      
+      <section id="two" className="wrapper alt spotlight style2">
+        <div className="inner">
+          <a href="/#" className="image">
+            <img src={pic2} alt="" />
+          </a>
+          <div className="content">
+            <h2 className="major">Design Tools</h2>
+            <p>
+              Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
+              turpis ante, nullam sit amet turpis non, sollicitudin posuere
+              urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim
+              dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
+              cursus.
+            </p>
+            <a href="/#" className="special">
+              Learn more
+            </a>
+          </div>
+        </div>
+      </section>
+      
+      <section id="three" className="wrapper spotlight style3">
+        <div className="inner">
+          <a href="/#" className="image">
+            <img src={pic3} alt="" />
+          </a>
+          <div className="content">
+            <h2 className="major">Extra Curricular</h2>
             <p>
               Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
               turpis ante, nullam sit amet turpis non, sollicitudin posuere
@@ -89,7 +175,7 @@ const IndexPage = () => (
 
       <section id="four" className="wrapper alt style1">
         <div className="inner">
-          <h2 className="major">Vitae phasellus</h2>
+          <h2 className="major">Project Samples</h2>
           <p>
             Cras mattis ante fermentum, malesuada neque vitae, eleifend erat.
             Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis

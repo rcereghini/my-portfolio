@@ -9,7 +9,7 @@ module.exports = {
   manifestIcon: 'src/assets/img/rcIcon.jpg',
   pathPrefix: `/gatsby-starter-solidstate/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Robert Cereghini',
-  subHeading: 'Front-End Web Developer',
+  subHeading: 'Full-Stack Web Developer who can wear many hats. Strong worker and fast, self-motivated learner with exceptional written communication skills. Passionate about expanding my knowledge and furthering my programming skills. Excited to be in a career that is constantly evolving.',
   // social
   socialLinks: [
     {

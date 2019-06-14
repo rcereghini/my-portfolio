@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="inner">
         <h2 className="major">Get in touch</h2>
         <p>
-          Like what you see?< br/> I am always looking forward to new opportunities! < br/>Please send me a message and I will get back to you as soon as I can. Thank you!
+          Like what you see?< br/> I am always looking forward to new opportunities! < br/>Please send me a message, and I will get back to you as soon as I can. Thank you!
         </p>
         <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
           <input type="hidden" name="form-name" value="contact" />
@@ -44,12 +44,12 @@ export default function Footer() {
             );
           })}
         </ul>
-        <ul className="copyright">
+        {/* <ul className="copyright">
           <li>&copy; Solid State. All rights reserved.</li>
           <li>
             Design: <a href="http://html5up.net">HTML5 UP</a>
           </li>
-        </ul>
+        </ul> */}
       </div>
     </section>
   );
