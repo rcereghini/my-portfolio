@@ -6,8 +6,18 @@
 
 /* Section/Article */
 
-	section, article {
-		&.special {
-			text-align: center;
-		}
-	}
+section,
+article {
+  &.special {
+    text-align: center;
+  }
+}
+
+.skillBlockContainer > p {
+  padding: 0.5em 1em;
+  border: 1px solid #ddd;
+  margin: 0em;
+  margin-bottom: 0.5em;
+  margin-right: 0.5em;
+  font-weight: 600;
+}

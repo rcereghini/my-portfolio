@@ -18,7 +18,7 @@ const IndexPage = () => (
       <div className="inner">
         <div className="logo">
           {/* <span className="icon fa-diamond"></span> */}
-          <img src={avatar} style={{borderRadius: "50%"}} alt="avatar" />
+          <img src={avatar} style={{ borderRadius: '50%' }} alt="avatar" />
         </div>
         <h2>{config.heading}</h2>
         <p>{config.subHeading}</p>
@@ -34,13 +34,15 @@ const IndexPage = () => (
           <div className="content">
             <h2 className="major">Languages</h2>
             <p>
-              <strong>Here I will have a list of the languages I know in a tile format. <br /><br />Disregard the paragraph look. <br /><br />Images may be removed if logos are included. Else they will be replaced with relevant, artsy photos to keep things interesting.</strong>
-              <br /> <br />
-              Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
-              turpis ante, nullam sit amet turpis non, sollicitudin posuere
-              urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim
-              dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
-              cursus.
+              <div style={{ display: 'flex' }} className="skillBlockContainer">
+                <p>JavaScript ES6+</p>
+                <p>Python</p>
+                <p>C#</p>
+                <p>SQL</p>
+                <p>PHP</p>
+                <p>HTML</p>
+                <p>CSS</p>
+              </div>
             </p>
             {/* <a href="/#" className="special">
               Learn more
@@ -56,16 +58,29 @@ const IndexPage = () => (
           </a>
           <div className="content">
             <h2 className="major">Frameworks and Related</h2>
-            <p>
-              Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
-              turpis ante, nullam sit amet turpis non, sollicitudin posuere
-              urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim
-              dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
-              cursus.
-            </p>
-            {/* <a href="/#" className="special">
-              Learn more
-            </a> */}
+            <div
+              style={{
+                display: 'flex',
+                flexWrap: 'wrap',
+              }}
+              className="skillBlockContainer"
+            >
+              <p>Node.js</p>
+              <p>React</p>
+              <p>React Native</p>
+              <p>React Native VR</p>
+              <p>React Router</p>
+              <p>React w/ Redux</p>
+              <p>Expo</p>
+              <p>Angular.js</p>
+              <p>Angular</p>
+              <p>Vue</p>
+              <p>Vue Router</p>
+              <p>Vuex</p>
+              <p>Python Django</p>
+              <p>Express</p>
+              <p>Gatsby.js</p>
+            </div>
           </div>
         </div>
       </section>
@@ -76,17 +91,30 @@ const IndexPage = () => (
             <img src={pic3} alt="" />
           </a>
           <div className="content">
-            <h2 className="major">Libraries</h2>
-            <p>
-              Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
-              turpis ante, nullam sit amet turpis non, sollicitudin posuere
-              urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim
-              dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
-              cursus.
-            </p>
-            {/* <a href="/#" className="special">
-              Learn more
-            </a> */}
+            <h2 className="major">Other Libraries and APIs</h2>
+            <div
+              style={{
+                display: 'flex',
+                flexWrap: 'wrap',
+              }}
+              className="skillBlockContainer"
+            >
+              <p>Progress Web Applications</p>
+              <p>Web Components</p>
+              <p>Custom Events</p>
+              <p>Service Workers</p>
+              <p>Socket.io</p>
+              <p>Network API</p>
+              <p>Jest</p>
+              <p>Axios</p>
+              <p>JQuery</p>
+              <p>JQuery Datatables</p>
+              <p>AG Grid</p>
+              <p>Clarifai</p>
+              <p>OpenAI</p>
+              <p>NewsAPI</p>
+              <p>WeatherAPI</p>
+            </div>
           </div>
         </div>
       </section>
@@ -95,82 +123,116 @@ const IndexPage = () => (
         <div className="inner">
           <a href="/#" className="image">
             <img src={pic2} alt="" />
+          </a>
+          <div className="content">
+            <h2 className="major">Tools</h2>
+            <div
+              style={{
+                display: 'flex',
+                flexWrap: 'wrap',
+              }}
+              className="skillBlockContainer"
+            >
+              <p>MySQL</p>
+              <p>PostgreSQL</p>
+              <p>Postman</p>
+              <p>Filezilla</p>
+              <p>Git</p>
+              <p>Netlify</p>
+              <p>Heroku</p>
+              <p>Facebook Authentication</p>
+              <p>Facebook Business APK</p>
+              <p>Facebook Marketing API</p>
+              <p>Firebase Firestore</p>
+              <p>Firebase Authentication</p>
+              <p>Firebase Hosting</p>
+              <p>Firebase Storage</p>
+              <p>Google Maps</p>
+              <p>Google Admob</p>
+              <p>Dialogflow Chatbots</p>
+              <p>Salesforce Development</p>
+              <p>Salesforce Administrator Support</p>
+              <p>Wix</p>
+              <p>WordPress</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="three" className="wrapper spotlight style3">
+        <div className="inner">
+          <a href="/#" className="image">
+            <img src={pic3} alt="" />
           </a>
           <div className="content">
             <h2 className="major">Business Tools</h2>
-            <p>
-              Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
-              turpis ante, nullam sit amet turpis non, sollicitudin posuere
-              urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim
-              dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
-              cursus.
-            </p>
-            {/* <a href="/#" className="special">
-              Learn more
-            </a> */}
+            <div
+              style={{
+                display: 'flex',
+                flexWrap: 'wrap',
+              }}
+              className="skillBlockContainer"
+            >
+              <p>Zapier</p>
+              <p>Excel</p>
+              <p>Word</p>
+              <p>Powerpoint</p>
+              <p>Trello</p>
+              <p>Wrike</p>
+              <p>Monday</p>
+              <p>Client Services</p>
+            </div>
           </div>
         </div>
       </section>
-      
-      <section id="three" className="wrapper spotlight style3">
-        <div className="inner">
-          <a href="/#" className="image">
-            <img src={pic3} alt="" />
-          </a>
-          <div className="content">
-            <h2 className="major">Marketing</h2>
-            <p>
-              Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
-              turpis ante, nullam sit amet turpis non, sollicitudin posuere
-              urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim
-              dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
-              cursus.
-            </p>
-            {/* <a href="/#" className="special">
-              Learn more
-            </a> */}
-          </div>
-        </div>
-      </section>
-      
+
       <section id="two" className="wrapper alt spotlight style2">
         <div className="inner">
           <a href="/#" className="image">
             <img src={pic2} alt="" />
           </a>
           <div className="content">
-            <h2 className="major">Design Tools</h2>
-            <p>
-              Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
-              turpis ante, nullam sit amet turpis non, sollicitudin posuere
-              urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim
-              dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
-              cursus.
-            </p>
-            {/* <a href="/#" className="special">
-              Learn more
-            </a> */}
+            <h2 className="major">Marketing</h2>
+            <div
+              style={{
+                display: 'flex',
+                flexWrap: 'wrap',
+              }}
+              className="skillBlockContainer"
+            >
+              <p>Mailchimp</p>
+              <p>Constant Contact</p>
+              <p>RSS Feeds</p>
+              <p>Google Admob</p>
+              <p>Facebook Ads</p>
+              <p>SproutSocial</p>
+              <p>Social Media Management</p>
+            </div>
           </div>
         </div>
       </section>
-      
+
       <section id="three" className="wrapper spotlight style3">
         <div className="inner">
           <a href="/#" className="image">
             <img src={pic3} alt="" />
           </a>
           <div className="content">
-            <h2 className="major">Extra Curricular</h2>
-            <p>
-              Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
-              turpis ante, nullam sit amet turpis non, sollicitudin posuere
-              urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim
-              dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
-              cursus.
-            </p>
-            {/* <a href="/#" className="special">
-              Learn more
-            </a> */}
+            <h2 className="major">Design Tools and Libraries</h2>
+            <div
+              style={{
+                display: 'flex',
+                flexWrap: 'wrap',
+              }}
+              className="skillBlockContainer"
+            >
+              <p>Adobe Photoshop</p>
+              <p>Adobe Illustrator</p>
+              <p>Adobe InDesign</p>
+              <p>Bootstrap</p>
+              <p>Tachyons</p>
+              <p>Materialize</p>
+            </div>
           </div>
         </div>
       </section>
