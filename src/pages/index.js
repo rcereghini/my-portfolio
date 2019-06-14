@@ -107,11 +107,15 @@ const IndexPage = () => (
               <p>Network API</p>
               <p>Jest</p>
               <p>Axios</p>
+              <p>MobX</p>
+              <p>Lodash</p>
               <p>JQuery</p>
               <p>JQuery Datatables</p>
               <p>AG Grid</p>
               <p>Clarifai</p>
               <p>OpenAI</p>
+              <p>Tensorflow</p>
+              <p>Machine Learning</p>
               <p>NewsAPI</p>
               <p>WeatherAPI</p>
             </div>
@@ -140,6 +144,7 @@ const IndexPage = () => (
               <p>Git</p>
               <p>Netlify</p>
               <p>Heroku</p>
+              <p>Unity</p>
               <p>Facebook Authentication</p>
               <p>Facebook Business APK</p>
               <p>Facebook Marketing API</p>
