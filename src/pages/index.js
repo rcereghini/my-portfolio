@@ -232,11 +232,18 @@ const IndexPage = () => (
               }}
               className="skillBlockContainer"
             >
+              <p>CodePen</p>
               <p>Adobe Photoshop</p>
               <p>Adobe Illustrator</p>
               <p>Adobe InDesign</p>
+              <p>Gimp</p>
+              <p>Dafont</p>
+              <p>Google Fonts</p>
+              <p>Draw.io</p>
+              <p>Canva</p>
               <p>Bootstrap</p>
               <p>Tachyons</p>
+              <p>Foundation</p>
               <p>Materialize</p>
             </div>
           </div>
