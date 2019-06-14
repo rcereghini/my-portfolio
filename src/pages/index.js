@@ -34,15 +34,17 @@ const IndexPage = () => (
           <div className="content">
             <h2 className="major">Languages</h2>
             <p>
+              <strong>Here I will have a list of the languages I know in a tile format. <br /><br />Disregard the paragraph look. <br /><br />Images may be removed if logos are included. Else they will be replaced with relevant, artsy photos to keep things interesting.</strong>
+              <br /> <br />
               Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
               turpis ante, nullam sit amet turpis non, sollicitudin posuere
               urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim
               dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
               cursus.
             </p>
-            <a href="/#" className="special">
+            {/* <a href="/#" className="special">
               Learn more
-            </a>
+            </a> */}
           </div>
         </div>
       </section>
@@ -61,9 +63,9 @@ const IndexPage = () => (
               dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
               cursus.
             </p>
-            <a href="/#" className="special">
+            {/* <a href="/#" className="special">
               Learn more
-            </a>
+            </a> */}
           </div>
         </div>
       </section>
@@ -82,9 +84,9 @@ const IndexPage = () => (
               dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
               cursus.
             </p>
-            <a href="/#" className="special">
+            {/* <a href="/#" className="special">
               Learn more
-            </a>
+            </a> */}
           </div>
         </div>
       </section>
@@ -103,9 +105,9 @@ const IndexPage = () => (
               dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
               cursus.
             </p>
-            <a href="/#" className="special">
+            {/* <a href="/#" className="special">
               Learn more
-            </a>
+            </a> */}
           </div>
         </div>
       </section>
@@ -124,9 +126,9 @@ const IndexPage = () => (
               dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
               cursus.
             </p>
-            <a href="/#" className="special">
+            {/* <a href="/#" className="special">
               Learn more
-            </a>
+            </a> */}
           </div>
         </div>
       </section>
@@ -145,9 +147,9 @@ const IndexPage = () => (
               dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
               cursus.
             </p>
-            <a href="/#" className="special">
+            {/* <a href="/#" className="special">
               Learn more
-            </a>
+            </a> */}
           </div>
         </div>
       </section>
@@ -166,9 +168,9 @@ const IndexPage = () => (
               dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
               cursus.
             </p>
-            <a href="/#" className="special">
+            {/* <a href="/#" className="special">
               Learn more
-            </a>
+            </a> */}
           </div>
         </div>
       </section>
@@ -236,13 +238,13 @@ const IndexPage = () => (
               </a>
             </article>
           </section>
-          <ul className="actions">
+          {/* <ul className="actions">
             <li>
               <a href="/#" className="button">
                 Browse All
               </a>
             </li>
-          </ul>
+          </ul> */}
         </div>
       </section>
     </section>
