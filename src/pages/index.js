@@ -80,6 +80,7 @@ const IndexPage = () => (
               <p>Python Django</p>
               <p>Express</p>
               <p>Gatsby.js</p>
+              <p>Jest</p>
             </div>
           </div>
         </div>
@@ -104,8 +105,8 @@ const IndexPage = () => (
               <p>Custom Events</p>
               <p>Service Workers</p>
               <p>Socket.io</p>
+              <p>Moment.js</p>
               <p>Network API</p>
-              <p>Jest</p>
               <p>Axios</p>
               <p>MobX</p>
               <p>Lodash</p>
@@ -129,7 +130,7 @@ const IndexPage = () => (
             <img src={pic2} alt="" />
           </a>
           <div className="content">
-            <h2 className="major">Tools</h2>
+            <h2 className="major">Development Tools</h2>
             <div
               style={{
                 display: 'flex',
@@ -141,6 +142,8 @@ const IndexPage = () => (
               <p>PostgreSQL</p>
               <p>Postman</p>
               <p>Filezilla</p>
+              <p>Webpack</p>
+              <p>npm</p>
               <p>Git</p>
               <p>Netlify</p>
               <p>Heroku</p>
@@ -152,8 +155,10 @@ const IndexPage = () => (
               <p>Firebase Authentication</p>
               <p>Firebase Hosting</p>
               <p>Firebase Storage</p>
+              <p>Google DevTools</p>
               <p>Google Maps</p>
               <p>Google Admob</p>
+              <p>Lighthouse</p>
               <p>Dialogflow Chatbots</p>
               <p>Salesforce Development</p>
               <p>Salesforce Administrator Support</p>
@@ -182,6 +187,7 @@ const IndexPage = () => (
               <p>Excel</p>
               <p>Word</p>
               <p>Powerpoint</p>
+              <p>Slack</p>
               <p>Trello</p>
               <p>Wrike</p>
               <p>Monday</p>
@@ -245,6 +251,8 @@ const IndexPage = () => (
               <p>Tachyons</p>
               <p>Foundation</p>
               <p>Materialize</p>
+              <p>Glyphicons</p>
+              <p>FontAwesome</p>
             </div>
           </div>
         </div>
