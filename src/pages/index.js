@@ -205,6 +205,7 @@ const IndexPage = () => (
               }}
               className="skillBlockContainer"
             >
+              <p>Search Engine Optimization</p>
               <p>Mailchimp</p>
               <p>Constant Contact</p>
               <p>RSS Feeds</p>
