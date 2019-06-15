@@ -34,7 +34,7 @@ const IndexPage = () => (
           <div className="content">
             <h2 className="major">Languages</h2>
             <p>
-              <div style={{ display: 'flex' }} className="skillBlockContainer">
+              <div style={{ display: 'flex', flexWrap: 'wrap'}} className="skillBlockContainer">
                 <p>JavaScript ES6+</p>
                 <p>Python</p>
                 <p>C#</p>
