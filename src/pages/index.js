@@ -10,6 +10,7 @@ import pic4 from '../assets/images/pic04.jpg';
 import pic5 from '../assets/images/pic05.jpg';
 import pic6 from '../assets/images/pic06.jpg';
 import pic7 from '../assets/images/pic07.jpg';
+import facialRecognition from '../assets/images/facial-recognition-cropped.jpg';
 
 import config from '../../config';
 const IndexPage = () => (
@@ -113,6 +114,8 @@ const IndexPage = () => (
               <p>JQuery</p>
               <p>JQuery Datatables</p>
               <p>AG Grid</p>
+              <p>Highcharts</p>
+              <p>Google Maps</p>
               <p>Clarifai</p>
               <p>OpenAI</p>
               <p>Tensorflow</p>
@@ -156,7 +159,6 @@ const IndexPage = () => (
               <p>Firebase Hosting</p>
               <p>Firebase Storage</p>
               <p>Google DevTools</p>
-              <p>Google Maps</p>
               <p>Google Admob</p>
               <p>Lighthouse</p>
               <p>Dialogflow Chatbots</p>
@@ -253,6 +255,7 @@ const IndexPage = () => (
               <p>Materialize</p>
               <p>Glyphicons</p>
               <p>FontAwesome</p>
+              <p>Particles.js</p>
             </div>
           </div>
         </div>
@@ -262,20 +265,20 @@ const IndexPage = () => (
         <div className="inner">
           <h2 className="major">Project Samples</h2>
           <p>
-            Cras mattis ante fermentum, malesuada neque vitae, eleifend erat.
-            Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis
-            egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus
-            in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.
+            Below is sample of projects I am currently working on or have completed in the past. Unfortunately, due to an NDA,
+            I cannot show samples from <a href={'http://www.petroleumrx.com/'}>my current employer</a>. I can, however, give a brief description! 
+            At my current, job we develop technical solutions and accounting software packages for petroleum jobbers, marketers, wholesalers, 
+            retailers, and distributers. Our team has multiple ongoing projects that utilize various technologies including web components, 
+            Vue, VueX, Angular, several data visualization libraries, and more. 
           </p>
           <section className="features">
             <article>
               <a href="/#" className="image">
-                <img src={pic4} alt="" />
+                <img src={facialRecognition} alt="" />
               </a>
-              <h3 className="major">Sed feugiat lorem</h3>
+              <h3 className="major">Face Finder</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
+                A project using React, Redux, Node.js, Clarifai, Tachyons, Particles, Tilt, and Heroku. 
               </p>
               <a href="/#" className="special">
                 Learn more
