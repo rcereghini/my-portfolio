@@ -334,7 +334,7 @@ const IndexPage = () => (
               </a>
               <h3 className="major">Machine Learning Fun</h3>
               <p>
-                Trained this bot using Python, Tensorflow, and OpenAI to further my understanding of Machine Learning. A very exciting area to explore for me! I have also used machine learning to analyze and discover patterns in images and find the relationship between input and output sets.
+                Trained this bot using Python, Tensorflow, and OpenAI while furthering my understanding of Machine Learning. A very exciting area to explore for me! Additionally, I have used machine learning to analyze and categorize images and to find the relationships between input and output value sets.
               </p>
               {/* <a href="/#" className="special">
                 Learn more
