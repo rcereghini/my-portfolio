@@ -273,14 +273,14 @@ const IndexPage = () => (
           </p>
           <section className="features">
             <article>
-              <a href="/#" className="image">
+              <a href="https://facial-recognition-counter.herokuapp.com/" className="image">
                 <img src={facialRecognition} alt="" />
               </a>
               <h3 className="major">Face Finder</h3>
               <p>
                 A project using React, Redux, Node.js, Clarifai, Tachyons, Particles, Tilt, and Heroku. 
               </p>
-              <a href="/#" className="special">
+              <a href="https://facial-recognition-counter.herokuapp.com/" className="special">
                 Learn more
               </a>
             </article>
