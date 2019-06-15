@@ -11,6 +11,7 @@ import pic5 from '../assets/images/pic05.jpg';
 import pic6 from '../assets/images/pic06.jpg';
 import pic7 from '../assets/images/pic07.jpg';
 import facialRecognition from '../assets/images/facial-recognition-cropped.jpg';
+import news from '../assets/images/news-cropped.jpg';
 
 import config from '../../config';
 const IndexPage = () => (
@@ -240,6 +241,8 @@ const IndexPage = () => (
               }}
               className="skillBlockContainer"
             >
+              <p>Flexbox</p>
+              <p>CSS Grid</p>
               <p>CodePen</p>
               <p>Adobe Photoshop</p>
               <p>Adobe Illustrator</p>
@@ -256,6 +259,7 @@ const IndexPage = () => (
               <p>Glyphicons</p>
               <p>FontAwesome</p>
               <p>Particles.js</p>
+              <p>Tilt</p>
             </div>
           </div>
         </div>
@@ -278,30 +282,30 @@ const IndexPage = () => (
               </a>
               <h3 className="major">Face Finder</h3>
               <p>
-                A project using React, Redux, Node.js, Clarifai, Tachyons, Particles, Tilt, and Heroku. 
+                A facial recognition app using React, Redux, Node.js, Clarifai, Tachyons, Particles, Tilt, and Heroku. 
               </p>
               <a href="https://facial-recognition-counter.herokuapp.com/" className="special">
-                Learn more
+                View Now
               </a>
             </article>
             <article>
               <a href="/#" className="image">
-                <img src={pic5} alt="" />
+                <img src={news} alt="" />
               </a>
-              <h3 className="major">Nisl placerat</h3>
+              <h3 className="major">News Feed</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
+                A tech, gaming, and comicbook newsfeed built with React, Axios, and the News API.
               </p>
               <a href="/#" className="special">
-                Learn more
+                Get the Scoop
               </a>
             </article>
+            
             <article>
               <a href="/#" className="image">
-                <img src={pic6} alt="" />
+                <img src={pic7} alt="" />
               </a>
-              <h3 className="major">Ante fermentum</h3>
+              <h3 className="major">Fusce consequat</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
                 nulla dignissim dapibus ultrices.
@@ -322,6 +326,19 @@ const IndexPage = () => (
               <a href="/#" className="special">
                 Learn more
               </a>
+            </article>
+            <article style={{width: '100%', margin: '0 auto'}}>
+              <a href="/#" className="image" style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+                {/* <img src={pic6} alt="" /> */}
+                <iframe width={"100%"} height={"605"} style={{borderTopRightRadius: '5px', borderTopLeftRadius: '5px'}} src={"https://www.youtube.com/embed/wun_GtPPYPY?rel=0&mute=1"} frameborder={"0"} allow={"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"} allowfullscreen></iframe>
+              </a>
+              <h3 className="major">Machine Learning Fun</h3>
+              <p>
+                Trained this bot using Python, Tensorflow, and OpenAI to further my understanding of Machine Learning. A very exciting area to explore for me! I have also used machine learning to analyze and discover patterns in images and find the relationship between input and output sets.
+              </p>
+              {/* <a href="/#" className="special">
+                Learn more
+              </a> */}
             </article>
           </section>
           {/* <ul className="actions">
