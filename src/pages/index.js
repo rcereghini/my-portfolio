@@ -3,13 +3,15 @@ import React from 'react';
 import Layout from '../components/Layout';
 
 import avatar from '../assets/images/rcIconMed.jpg';
-import pic1 from '../assets/images/pic01.jpg';
-import pic2 from '../assets/images/pic02.jpg';
-import pic3 from '../assets/images/pic03.jpg';
-import pic4 from '../assets/images/pic04.jpg';
-import pic5 from '../assets/images/pic05.jpg';
-import pic6 from '../assets/images/pic06.jpg';
-import pic7 from '../assets/images/pic07.jpg';
+import pic1 from '../assets/images/languages.jpg';
+import pic2 from '../assets/images/frameworks.jpg';
+import pic3 from '../assets/images/libraries.jpg';
+import pic4 from '../assets/images/devTools.jpg';
+import pic5 from '../assets/images/business.jpg';
+import pic6 from '../assets/images/marketing.jpg';
+import pic7 from '../assets/images/designTools.jpg';
+import opin from '../assets/images/opin.png';
+import box3 from '../assets/images/box3.png';
 import facialRecognition from '../assets/images/facial-recognition-cropped.jpg';
 import news from '../assets/images/news-cropped.jpg';
 
@@ -30,7 +32,7 @@ const IndexPage = () => (
     <section id="wrapper">
       <section id="one" className="wrapper spotlight style1">
         <div className="inner">
-          <a href="/#" className="image">
+          <a href="/#" className="image sectionImage">
             <img src={pic1} alt="" />
           </a>
           <div className="content">
@@ -55,7 +57,7 @@ const IndexPage = () => (
 
       <section id="two" className="wrapper alt spotlight style2">
         <div className="inner">
-          <a href="/#" className="image">
+          <a href="/#" className="image sectionImage">
             <img src={pic2} alt="" />
           </a>
           <div className="content">
@@ -90,7 +92,7 @@ const IndexPage = () => (
 
       <section id="three" className="wrapper spotlight style3">
         <div className="inner">
-          <a href="/#" className="image">
+          <a href="/#" className="image sectionImage">
             <img src={pic3} alt="" />
           </a>
           <div className="content">
@@ -130,8 +132,8 @@ const IndexPage = () => (
 
       <section id="two" className="wrapper alt spotlight style2">
         <div className="inner">
-          <a href="/#" className="image">
-            <img src={pic2} alt="" />
+          <a href="/#" className="image sectionImage">
+            <img src={pic4} alt="" />
           </a>
           <div className="content">
             <h2 className="major">Development Tools</h2>
@@ -174,8 +176,8 @@ const IndexPage = () => (
 
       <section id="three" className="wrapper spotlight style3">
         <div className="inner">
-          <a href="/#" className="image">
-            <img src={pic3} alt="" />
+          <a href="/#" className="image sectionImage">
+            <img src={pic5} alt="" />
           </a>
           <div className="content">
             <h2 className="major">Business Tools</h2>
@@ -202,8 +204,8 @@ const IndexPage = () => (
 
       <section id="two" className="wrapper alt spotlight style2">
         <div className="inner">
-          <a href="/#" className="image">
-            <img src={pic2} alt="" />
+          <a href="/#" className="image sectionImage">
+            <img src={pic6} alt="" />
           </a>
           <div className="content">
             <h2 className="major">Marketing</h2>
@@ -229,8 +231,8 @@ const IndexPage = () => (
 
       <section id="three" className="wrapper spotlight style3">
         <div className="inner">
-          <a href="/#" className="image">
-            <img src={pic3} alt="" />
+          <a href="/#" className="image sectionImage">
+            <img src={pic7} alt="" />
           </a>
           <div className="content">
             <h2 className="major">Design Tools and Libraries</h2>
@@ -278,7 +280,7 @@ const IndexPage = () => (
           <section className="features">
             <article>
               <a href="https://facial-recognition-counter.herokuapp.com/" className="image">
-                <img src={facialRecognition} alt="" />
+                <img src={box3} alt="" />
               </a>
               <h3 className="major">Face Finder</h3>
               <p>
@@ -316,9 +318,9 @@ const IndexPage = () => (
             </article>
             <article>
               <a href="/#" className="image">
-                <img src={pic7} alt="" />
+                <img src={opin} alt="" />
               </a>
-              <h3 className="major">Fusce consequat</h3>
+              <h3 className="major">OpinAds</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
                 nulla dignissim dapibus ultrices.

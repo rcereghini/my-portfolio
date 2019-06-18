@@ -22,20 +22,21 @@ export default function Nav({ onMenuToggle = () => {} }) {
               onClick={e => {
                 onMenuToggle();
               }}
-              to="/Generic"
+              to="/About"
             >
-              Generic Page
+              About Me
             </Link>
           </li>
           <li>
-            <Link
+            {/* <Link
               onClick={e => {
                 onMenuToggle();
               }}
               to="/Elements"
             >
-              Elements
-            </Link>
+              Download Resume
+            </Link> */}
+            <a href="https://drive.google.com/file/d/1lnRakI1tQRddUvlLqc8A9Jz7DWQQQ35i/view?usp=sharing">View Resume</a>
           </li>
         </ul>
         <a
