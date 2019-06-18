@@ -37,17 +37,18 @@ const IndexPage = () => (
           </a>
           <div className="content">
             <h2 className="major">Languages</h2>
-            <p>
-              <div style={{ display: 'flex', flexWrap: 'wrap'}} className="skillBlockContainer">
-                <p>JavaScript ES6+</p>
-                <p>Python</p>
-                <p>C#</p>
-                <p>SQL</p>
-                <p>PHP</p>
-                <p>HTML</p>
-                <p>CSS</p>
-              </div>
-            </p>
+            <div
+              style={{ display: 'flex', flexWrap: 'wrap' }}
+              className="skillBlockContainer"
+            >
+              <p>JavaScript ES6+</p>
+              <p>Python</p>
+              <p>C#</p>
+              <p>SQL</p>
+              <p>PHP</p>
+              <p>HTML</p>
+              <p>CSS</p>
+            </div>
             {/* <a href="/#" className="special">
               Learn more
             </a> */}
@@ -271,22 +272,34 @@ const IndexPage = () => (
         <div className="inner">
           <h2 className="major">Project Samples</h2>
           <p>
-            Below is sample of projects I am currently working on or have completed in the past. Unfortunately, due to an NDA,
-            I cannot show samples from <a href={'http://www.petroleumrx.com/'}>my current employer</a>. I can, however, give a brief description! 
-            At my current, job we develop technical solutions and accounting software packages for petroleum jobbers, marketers, wholesalers, 
-            retailers, and distributers. Our team has multiple ongoing projects that utilize various technologies including web components, 
-            Vue, VueX, Angular, several data visualization libraries, and more. 
+            Below is sample of projects I am currently working on or have
+            completed in the past. Unfortunately, due to an NDA, I cannot show
+            samples from{' '}
+            <a href={'http://www.petroleumrx.com/'}>my current employer</a>. I
+            can, however, give a brief description! At my current, job we
+            develop technical solutions and accounting software packages for
+            petroleum jobbers, marketers, wholesalers, retailers, and
+            distributers. Our team has multiple ongoing projects that utilize
+            various technologies including web components, Vue, VueX, Angular,
+            several data visualization libraries, and more.
           </p>
           <section className="features">
             <article>
-              <a href="https://facial-recognition-counter.herokuapp.com/" className="image">
+              <a
+                href="https://facial-recognition-counter.herokuapp.com/"
+                className="image"
+              >
                 <img src={box3} alt="" />
               </a>
               <h3 className="major">Face Finder</h3>
               <p>
-                A facial recognition app using React, Redux, Node.js, Clarifai, Tachyons, Particles, Tilt, and Heroku. 
+                A facial recognition app using React, Redux, Node.js, Clarifai,
+                Tachyons, Particles, Tilt, and Heroku.
               </p>
-              <a href="https://facial-recognition-counter.herokuapp.com/" className="special">
+              <a
+                href="https://facial-recognition-counter.herokuapp.com/"
+                className="special"
+              >
                 View Now
               </a>
             </article>
@@ -296,13 +309,14 @@ const IndexPage = () => (
               </a>
               <h3 className="major">News Feed</h3>
               <p>
-                A tech, gaming, and comicbook newsfeed built with React, Axios, and the News API.
+                A tech, gaming, and comicbook newsfeed built with React, Axios,
+                and the News API.
               </p>
               <a href="/#" className="special">
                 Get the Scoop
               </a>
             </article>
-            
+
             <article>
               <a href="/#" className="image">
                 <img src={pic7} alt="" />
@@ -329,14 +343,39 @@ const IndexPage = () => (
                 Learn more
               </a>
             </article>
-            <article style={{width: '100%', margin: '0 auto'}}>
-              <a href="/#" className="image" style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+            <article style={{ width: '100%', margin: '0 auto' }}>
+              <a
+                href="/#"
+                className="image"
+                style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                }}
+              >
                 {/* <img src={pic6} alt="" /> */}
-                <iframe width={"100%"} height={"605"} style={{borderTopRightRadius: '5px', borderTopLeftRadius: '5px'}} src={"https://www.youtube.com/embed/wun_GtPPYPY?rel=0&mute=1"} frameborder={"0"} allow={"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"} allowfullscreen></iframe>
+                <iframe
+                  width={'100%'}
+                  height={'605'}
+                  style={{
+                    borderTopRightRadius: '5px',
+                    borderTopLeftRadius: '5px',
+                  }}
+                  src={'https://www.youtube.com/embed/wun_GtPPYPY?rel=0&mute=1'}
+                  frameBorder={'0'}
+                  allow={
+                    'accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
+                  }
+                  allowFullScreen
+                ></iframe>
               </a>
               <h3 className="major">Machine Learning Fun</h3>
               <p>
-                Trained this bot using Python, Tensorflow, and OpenAI while furthering my understanding of Machine Learning. A very exciting area to explore for me! Additionally, I have used machine learning to analyze and categorize images and to find the relationships between input and output value sets.
+                Trained this bot using Python, Tensorflow, and OpenAI while
+                furthering my understanding of Machine Learning. A very exciting
+                area to explore for me! Additionally, I have used machine
+                learning to analyze and categorize images and to find the
+                relationships between input and output value sets.
               </p>
               {/* <a href="/#" className="special">
                 Learn more
