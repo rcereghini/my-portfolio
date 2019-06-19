@@ -10,9 +10,10 @@ article {
 
 .skillBlockContainer > p {
   padding: 0.5em 1em;
-  border: 1px solid #ddd;
+  border: 1px solid rgba(200,200,200,.4);
   box-shadow: 2px 2px 5px rgba(0,0,0,.5);
   margin: 0em;
+  background-color: rgba(0,0,0,0.05);
   margin-bottom: 0.5em;
   margin-right: 0.5em;
   font-weight: 600;

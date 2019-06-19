@@ -305,7 +305,7 @@ const IndexPage = () => (
               </a>
             </article>
             <article>
-              <a href="/#" className="image">
+              <a href="https://rcc-news-feed.herokuapp.com/" className="image">
                 <img src={news} alt="" />
               </a>
               <h3 className="major">News Feed</h3>
@@ -319,7 +319,7 @@ const IndexPage = () => (
             </article>
 
             <article>
-              <a href="/#" className="image">
+              <a href="https://opinads.com/" className="image">
                 <img src={opin} alt="" />
               </a>
               <h3 className="major">OpinAds</h3>
@@ -331,9 +331,9 @@ const IndexPage = () => (
               </a>
             </article>
             <article>
-              <a href="/#" className="image">
+              <div className="image">
                 <img src={adventureGame} alt="" />
-              </a>
+              </div>
               <h3 className="major">React Native Adventure Game</h3>
               <p>
                 A text-based adventure game using React Native, Expo, Firebase, Admobs, and custom art.
@@ -392,7 +392,7 @@ const IndexPage = () => (
             </article>
 
             <article>
-              <a href="/#" className="image">
+              <a href="https://medium.com/@rcereghini/landing-your-first-developer-job-8f6148e42708" className="image">
                 <img src={help} alt="" />
               </a>
               <h3 className="major">Writing</h3>
