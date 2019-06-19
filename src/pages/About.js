@@ -18,29 +18,30 @@ const IndexPage = () => (
       <header>
         <div className="inner">
           <h2>About Me</h2>
-          <p>"Wonderful quote" - Some wise person.</p>
-        </div>
-      </header>
-
-      <div className="wrapper">
-        <div className="inner">
-          <h3 className="major">Bio</h3>
+          {/* <p>"Wonderful quote" - Some wise person.</p> */}
           <p>
             I was born and raised in Arizona and graduated from Arizona State
             University in 2012. Originally going to school for Computer
             Sciences, I changed course and graduated with a degree in English
             Literature/Philosophy. Since then I've dabbled in creative writing,
             teaching, digital marketing, before turning my hobby of game
-            development into a full-time passion for web development.
+            development into a full-time passion for programming and web
+            development.
           </p>
           <p>I have a beautiful wife, two wonderful boys, a dog, and a cat.</p>
           <p>
             I am currently working at PetroleumRx as a Front-End developer. I am
             also helping develop OpinAds, a lead gen solution for real estate
             agents. In whatever free-time remains, I enjoy learning about
-            machine learning and game development.
+            machine learning, chipping away at projects, and game development.
           </p>
         </div>
+      </header>
+
+      <div className="wrapper">
+        {/* <div className="inner">
+          <h3 className="major">Bio</h3>
+        </div> */}
         <div className="inner">
           <h3 className="major">Gallery</h3>
           {/* <div className="gallery"> */}

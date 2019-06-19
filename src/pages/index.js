@@ -319,7 +319,7 @@ const IndexPage = () => (
 
             <article>
               <a href="/#" className="image">
-                <img src={pic7} alt="" />
+                <img src={facialRecognition} alt="" />
               </a>
               <h3 className="major">Fusce consequat</h3>
               <p>
@@ -343,15 +343,23 @@ const IndexPage = () => (
                 Learn more
               </a>
             </article>
-            <article style={{ width: '100%', margin: '0 auto' }}>
+            <article
+              style={
+                {
+                  // width: '100%', margin: '0 auto'
+                }
+              }
+            >
               <a
                 href="/#"
                 className="image"
-                style={{
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                }}
+                style={
+                  {
+                    // display: 'flex',
+                    // alignItems: 'center',
+                    // justifyContent: 'center',
+                  }
+                }
               >
                 {/* <img src={pic6} alt="" /> */}
                 <iframe
@@ -372,10 +380,9 @@ const IndexPage = () => (
               <h3 className="major">Machine Learning Fun</h3>
               <p>
                 Trained this bot using Python, Tensorflow, and OpenAI while
-                furthering my understanding of Machine Learning. A very exciting
-                area to explore for me! Additionally, I have used machine
-                learning to analyze and categorize images and to find the
-                relationships between input and output value sets.
+                furthering my understanding of Machine Learning. Additionally, I
+                have used machine learning to analyze and categorize images and
+                to find the relationships between input and output value sets.
               </p>
               {/* <a href="/#" className="special">
                 Learn more
