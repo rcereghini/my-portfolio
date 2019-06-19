@@ -10,7 +10,7 @@ import pic4 from '../assets/images/devTools.jpg';
 import pic5 from '../assets/images/business.jpg';
 import pic6 from '../assets/images/marketing.jpg';
 import pic7 from '../assets/images/designTools.jpg';
-import opin2 from '../assets/images/opin3.jpeg';
+import opin2 from '../assets/images/opin3.jpg';
 import box3 from '../assets/images/box3.png';
 import help from '../assets/images/helpC.jpeg'
 import adventureGame from '../assets/images/adventureGame.png';
