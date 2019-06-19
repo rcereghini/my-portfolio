@@ -2,7 +2,7 @@ module.exports = {
   siteTitle: 'Robert Cereghini - Web Developer', // <title>
   manifestName: 'Robert Cereghini - Web Developer',
   manifestShortName: 'rcereghini', // max 12 characters
-  manifestStartUrl: '',
+  manifestStartUrl: 'https://www.rcereghini.com/',
   manifestBackgroundColor: '#1c1d27',
   manifestThemeColor: '#1c1d27',
   manifestDisplay: 'standalone',
