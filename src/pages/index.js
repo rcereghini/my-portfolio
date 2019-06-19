@@ -10,10 +10,11 @@ import pic4 from '../assets/images/devTools.jpg';
 import pic5 from '../assets/images/business.jpg';
 import pic6 from '../assets/images/marketing.jpg';
 import pic7 from '../assets/images/designTools.jpg';
-import opin from '../assets/images/opin.png';
+import opin from '../assets/images/opinAdshq2.png';
 import box3 from '../assets/images/box3.png';
-import facialRecognition from '../assets/images/facial-recognition-cropped.jpg';
-import news from '../assets/images/news-cropped.jpg';
+import help from '../assets/images/helpC.jpeg'
+import adventureGame from '../assets/images/adventureGame.png';
+import news from '../assets/images/newsFeed.jpg';
 
 import config from '../../config';
 const IndexPage = () => (
@@ -312,51 +313,37 @@ const IndexPage = () => (
                 A tech, gaming, and comicbook newsfeed built with React, Axios,
                 and the News API.
               </p>
-              <a href="/#" className="special">
+              <a href="https://rcc-news-feed.herokuapp.com/" className="special">
                 Get the Scoop
               </a>
             </article>
 
             <article>
               <a href="/#" className="image">
-                <img src={facialRecognition} alt="" />
-              </a>
-              <h3 className="major">Fusce consequat</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
-              </p>
-              <a href="/#" className="special">
-                Learn more
-              </a>
-            </article>
-            <article>
-              <a href="/#" className="image">
                 <img src={opin} alt="" />
               </a>
               <h3 className="major">OpinAds</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
+                Internal tooling to create process automation. Facebook Business/Marketing APIs. Currently working on Dialogflow chatbot.
               </p>
-              <a href="/#" className="special">
+              <a href="https://opinads.com/" className="special">
                 Learn more
               </a>
             </article>
             <article>
               <a href="/#" className="image">
-                <img src={opin} alt="" />
+                <img src={adventureGame} alt="" />
               </a>
-              <h3 className="major">Mobile Adventure Game</h3>
+              <h3 className="major">React Native Adventure Game</h3>
               <p>
-                React Native, Expo, Firebase Datastore, Google/Facebook
-                Authentication, Firebase Hosting/Storage, Admob
+                A text-based adventure game using React Native, Expo, Firebase, Admobs, and custom art.
               </p>
-              <p>In Development</p>
-              {/* <a href="/#" className="special">
-                Learn more
-              </a> */}
+              <p>
+                In Development
+              </p>
             </article>
+
+
             <article
               style={
                 {
@@ -379,7 +366,7 @@ const IndexPage = () => (
                 <iframe
                   // className="image"
                   width={'100%'}
-                  height={'232px'}
+                  height={'256px'}
                   style={{
                     borderTopRightRadius: '5px',
                     borderTopLeftRadius: '5px',
@@ -403,6 +390,23 @@ const IndexPage = () => (
                 Learn more
               </a> */}
             </article>
+
+            <article>
+              <a href="/#" className="image">
+                <img src={help} alt="" />
+              </a>
+              <h3 className="major">Writing</h3>
+              <p>
+                "Landing Your First Developer Role"<br/><br/>
+                An article describing my initial job search, the path I took to get there, and advice for beginners.
+              </p>
+              <a href="https://medium.com/@rcereghini/landing-your-first-developer-job-8f6148e42708" className="special">
+                Read Article
+              </a>
+            </article>
+
+
+            
           </section>
           {/* <ul className="actions">
             <li>
