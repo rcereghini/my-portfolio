@@ -10,7 +10,7 @@ import pic4 from '../assets/images/devTools.jpg';
 import pic5 from '../assets/images/business.jpg';
 import pic6 from '../assets/images/marketing.jpg';
 import pic7 from '../assets/images/designTools.jpg';
-// import opin from '../assets/images/opin2.png';
+import opin2 from '../assets/images/opin2.png';
 import box3 from '../assets/images/box3.png';
 import help from '../assets/images/helpC.jpeg'
 import adventureGame from '../assets/images/adventureGame.png';
@@ -320,7 +320,7 @@ const IndexPage = () => (
 
             <article>
               <a href="https://opinads.com/" className="image">
-                <img src={news} alt="" />
+                <img src={opin2} alt="" />
               </a>
               <h3 className="major">OpinAds</h3>
               <p>
