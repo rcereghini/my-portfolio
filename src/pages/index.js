@@ -363,8 +363,9 @@ const IndexPage = () => (
               >
                 {/* <img src={pic6} alt="" /> */}
                 <iframe
+                  // className="image"
                   width={'100%'}
-                  height={'605'}
+                  height={'232px'}
                   style={{
                     borderTopRightRadius: '5px',
                     borderTopLeftRadius: '5px',
