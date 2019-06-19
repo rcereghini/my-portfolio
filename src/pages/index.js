@@ -343,6 +343,20 @@ const IndexPage = () => (
                 Learn more
               </a>
             </article>
+            <article>
+              <a href="/#" className="image">
+                <img src={opin} alt="" />
+              </a>
+              <h3 className="major">Mobile Adventure Game</h3>
+              <p>
+                React Native, Expo, Firebase Datastore, Google/Facebook
+                Authentication, Firebase Hosting/Storage, Admob
+              </p>
+              <p>In Development</p>
+              {/* <a href="/#" className="special">
+                Learn more
+              </a> */}
+            </article>
             <article
               style={
                 {
