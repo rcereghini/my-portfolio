@@ -20,7 +20,7 @@ const IndexPage = () => (
           <h2>About Me</h2>
           {/* <p>"Wonderful quote" - Some wise person.</p> */}
           <p>
-            I was born and raised in Arizona and graduated from Arizona State
+            I was born and raised in Arizona. and graduated from Arizona State
             University in 2012. Originally going to school for Computer
             Sciences, I changed course and graduated with a degree in English
             Literature/Philosophy. Since then I've dabbled in creative writing,
@@ -30,10 +30,8 @@ const IndexPage = () => (
           </p>
           <p>I have a beautiful wife, two wonderful boys, a dog, and a cat.</p>
           <p>
-            I am currently working at PetroleumRx as a Front-End developer. I am
-            also helping develop OpinAds, a lead gen solution for real estate
-            agents. In whatever free-time remains, I enjoy learning about
-            machine learning, chipping away at projects, and game development.
+            I am currently working at PetroleumRx as a Front-End developer. Additionally, I
+            work on internal tooling for OpinAds, a real estate lead aquisition service. In whatever free-time remains, I enjoy chipping away at personal projects, game development, and spending time with the family.
           </p>
         </div>
       </header>
@@ -52,8 +50,8 @@ const IndexPage = () => (
               </span>
               <h3 className="major">The Family</h3>
               <p>
-                As far as getting everyone to look and smile at the same time,
-                this was the best we could do...
+                We tried to get everyone to smile together...
+                This was the best we could do.
               </p>
             </article>
 
@@ -86,17 +84,7 @@ const IndexPage = () => (
               <h3 className="major">Mixed Martial Arts</h3>
               <p>
                 I trained consistently for over eight years. While I spend more
-                time pushing keys these days, I am still a big fan of the sport.
-              </p>
-            </article>
-
-            <article>
-              <span className="image">
-                <img src={drawing} alt="" />
-              </span>
-              <h3 className="major">Drawing</h3>
-              <p>
-                Chalkboard art for a Tempe pub during the Pokemon Go launch.
+                time punching keys these days, I am a big fan of the sport.
               </p>
             </article>
 
@@ -111,24 +99,6 @@ const IndexPage = () => (
               </p>
             </article>
 
-            <article>
-              <span className="image">
-                <img src={ragnar} alt="" />
-              </span>
-              <h3 className="major">Running</h3>
-              <p>Running into the finish line during a recent Ragnar run.</p>
-            </article>
-
-            <article>
-              <span className="image">
-                <img src={comicon} alt="" />
-              </span>
-              <h3 className="major">All Things Nerdy</h3>
-              <p>
-                From a year I attended Comicon. I am a big fan of sci-fi,
-                fantasy, and all things nerdy!
-              </p>
-            </article>
           </section>
         </div>
         {/* </div> */}

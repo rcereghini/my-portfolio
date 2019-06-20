@@ -31,11 +31,12 @@ export default function Footer() {
           </ul>
         </form>
         <ul className="contact">
-          {/* <li className="fa-home">{config.address}</li> */}
-
-          <li className="fa-phone">{config.phone}</li>
+          <li className="fa-phone">
+            <a href={`tel:${config.phone}`}>{config.phone}</a>
+          </li>
 
           {config.socialLinks.map(social => {
+            console.log('social', social)
             const { icon, url } = social;
             return (
               <li className={`${icon}`} key={url}>
@@ -44,12 +45,6 @@ export default function Footer() {
             );
           })}
         </ul>
-        {/* <ul className="copyright">
-          <li>&copy; Solid State. All rights reserved.</li>
-          <li>
-            Design: <a href="http://html5up.net">HTML5 UP</a>
-          </li>
-        </ul> */}
       </div>
     </section>
   );

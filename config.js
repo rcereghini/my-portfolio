@@ -10,7 +10,7 @@ module.exports = {
   // pathPrefix: `/gatsby-starter-solidstate/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Robert Cereghini',
   subHeading:
-    'Full-Stack Web Developer who is able to wear many hats. Strong worker and fast, self-motivated learner with exceptional written communication skills. Passionate about expanding my knowledge and furthering my programming skills. Excited to be in a career that is constantly evolving.',
+    'Web Developer. Passionate and self-motivated about expanding my knowledge and furthering my programming skills. Excited to be in a career that is constantly evolving. Below are some of the languages, libraries, and tools I\'ve worked with.',
   // social
   socialLinks: [
     {
