@@ -1,16 +1,11 @@
 import React from 'react';
 
 import Layout from '../components/Layout';
-import pic4 from '../assets/images/pic04.jpg';
 import mma from '../assets/images/mma.jpg';
 import family from '../assets/images/family.jpg';
-import drawing from '../assets/images/drawing.jpg';
 import hike from '../assets/images/hike.jpg';
 import piano from '../assets/images/piano.jpg';
-import ragnar from '../assets/images/ragnar.jpg';
 import kids from '../assets/images/kids.jpg';
-import comicon from '../assets/images/comicon.jpg';
-import pic5 from '../assets/images/pic05.jpg';
 
 const IndexPage = () => (
   <Layout fullMenu>

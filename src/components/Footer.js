@@ -36,7 +36,6 @@ export default function Footer() {
           </li>
 
           {config.socialLinks.map(social => {
-            console.log('social', social)
             const { icon, url } = social;
             return (
               <li className={`${icon}`} key={url}>

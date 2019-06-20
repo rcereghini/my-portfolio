@@ -365,6 +365,7 @@ const IndexPage = () => (
                 {/* <img src={pic6} alt="" /> */}
                 <iframe
                   // className="image"
+                  title="machineLearningVideo"
                   width={'100%'}
                   height={'256px'}
                   style={{
