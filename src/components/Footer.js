@@ -31,9 +31,9 @@ export default function Footer() {
           </ul>
         </form>
         <ul className="contact">
-          <li className="fa-phone">
+          {/* <li className="fa-phone">
             <a href={`tel:${config.phone}`}>{config.phone}</a>
-          </li>
+          </li> */}
 
           {config.socialLinks.map(social => {
             const { icon, url } = social;

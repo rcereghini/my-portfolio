@@ -11,7 +11,6 @@ module.exports = {
   heading: 'Robert Cereghini',
   subHeading:
     'Web Developer. Passionate and self-motivated about expanding my knowledge and furthering my programming skills. Excited to be in a career that is constantly evolving. Below are some of the languages, libraries, and tools I\'ve worked with.',
-  // social
   socialLinks: [
     {
       icon: 'fa-github',
