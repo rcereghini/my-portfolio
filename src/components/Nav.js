@@ -36,7 +36,9 @@ export default function Nav({ onMenuToggle = () => {} }) {
             >
               Download Resume
             </Link> */}
-            <a href="https://drive.google.com/file/d/1lnRakI1tQRddUvlLqc8A9Jz7DWQQQ35i/view?usp=sharing">View Resume</a>
+            <a href="https://docs.google.com/document/d/1fFVYOibWYa_YXtQ8xXNpKVwpdwPl5hGJJuVLjWhbb6E/edit?usp=sharing">
+              View Resume
+            </a>
           </li>
         </ul>
         <a
