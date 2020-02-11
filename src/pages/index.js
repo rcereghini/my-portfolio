@@ -11,6 +11,7 @@ import pic5 from '../assets/images/business.jpg';
 import pic6 from '../assets/images/marketing.jpg';
 import pic7 from '../assets/images/designTools.jpg';
 import opin2 from '../assets/images/opin2.jpg';
+import openGymFinder from '../assets/images/openGymFinder.jpg';
 import box3 from '../assets/images/box3.png';
 import help from '../assets/images/helpC.jpeg'
 import adventureGame from '../assets/images/adventureGame.png';
@@ -286,6 +287,21 @@ const IndexPage = () => (
           </p>
           <section className="features">
             <article>
+              <a href="https://opinads.com/" className="image">
+                <img src={opin2} alt="" />
+              </a>
+              <h3 className="major">Open Gym Finder</h3>
+              <p>
+                Full-stack application inteded to be a PWA. Currently in development. Uses React w/ Firebase.
+              </p>
+              <a href="https://distracted-tesla-7c4b19.netlify.com/" className="special">
+                Learn more
+              </a>
+              <a href="https://github.com/rcereghini/open-gym-finder" className="special">
+                View Github
+              </a>
+            </article>
+            <article>
               <a
                 href="https://facial-recognition-counter.herokuapp.com/"
                 className="image"
@@ -318,7 +334,7 @@ const IndexPage = () => (
               </a>
             </article>
 
-            <article>
+            {/* <article>
               <a href="https://opinads.com/" className="image">
                 <img src={opin2} alt="" />
               </a>
@@ -329,7 +345,7 @@ const IndexPage = () => (
               <a href="https://opinads.com/" className="special">
                 Learn more
               </a>
-            </article>
+            </article> */}
             <article>
               <div className="image">
                 <img src={adventureGame} alt="" />
