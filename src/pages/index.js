@@ -288,7 +288,7 @@ const IndexPage = () => (
           <section className="features">
             <article>
               <a href="https://opinads.com/" className="image">
-                <img src={opin2} alt="" />
+                <img src={openGymFinder} alt="" />
               </a>
               <h3 className="major">Open Gym Finder</h3>
               <p>
