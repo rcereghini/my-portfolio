@@ -287,7 +287,7 @@ const IndexPage = () => (
           </p>
           <section className="features">
             <article>
-              <a href="https://opinads.com/" className="image">
+              <a href="https://distracted-tesla-7c4b19.netlify.com/" className="image">
                 <img src={openGymFinder} alt="" />
               </a>
               <h3 className="major">Open Gym Finder</h3>
@@ -295,7 +295,7 @@ const IndexPage = () => (
                 Full-stack application inteded to be a PWA. Currently in development. Uses React w/ Firebase.
               </p>
               <a href="https://distracted-tesla-7c4b19.netlify.com/" className="special">
-                Learn more
+                View Now
               </a>
               <a href="https://github.com/rcereghini/open-gym-finder" className="special">
                 View Github
