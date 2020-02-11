@@ -320,12 +320,25 @@ const IndexPage = () => (
                 View Now
               </a>
             </article>
-            <article>
+            {/* <article>
               <a href="https://rcc-news-feed.herokuapp.com/" className="image">
                 <img src={news} alt="" />
               </a>
               <h3 className="major">News Feed</h3>
               <p>
+                A tech, gaming, and comicbook newsfeed built with React, Axios,
+                and the News API.
+              </p>
+              <a href="https://rcc-news-feed.herokuapp.com/" className="special">
+                Get the Scoop
+              </a>
+            </article> */}
+            <article>
+              <a href="https://rcc-news-feed.herokuapp.com/" className="image">
+                <img src={news} alt="" />
+              </a>
+              <h3 className="major">News Feed</h3>
+              <p> 
                 A tech, gaming, and comicbook newsfeed built with React, Axios,
                 and the News API.
               </p>
