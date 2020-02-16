@@ -13,7 +13,7 @@ import pic7 from '../assets/images/designTools.jpg';
 import opin2 from '../assets/images/opin2.jpg';
 import openGymFinder from '../assets/images/openGymFinder.jpg';
 import box3 from '../assets/images/box3.png';
-import help from '../assets/images/helpC.jpeg'
+import help from '../assets/images/helpC.jpeg';
 import adventureGame from '../assets/images/adventureGame.png';
 import news from '../assets/images/newsFeed.jpg';
 
@@ -287,17 +287,27 @@ const IndexPage = () => (
           </p>
           <section className="features">
             <article>
-              <a href="https://distracted-tesla-7c4b19.netlify.com/" className="image">
+              <a
+                href="https://distracted-tesla-7c4b19.netlify.com/"
+                className="image"
+              >
                 <img src={openGymFinder} alt="" />
               </a>
               <h3 className="major">Open Gym Finder</h3>
               <p>
-                Full-stack application inteded to be a PWA. Currently in development. Uses React w/ Firebase.
+                Full-stack application inteded to be a PWA. Currently in
+                development. Uses React w/ Firebase.
               </p>
-              <a href="https://distracted-tesla-7c4b19.netlify.com/" className="special">
+              <a
+                href="https://distracted-tesla-7c4b19.netlify.com/"
+                className="special"
+              >
                 View Now
               </a>
-              <a href="https://github.com/rcereghini/open-gym-finder" className="special">
+              <a
+                href="https://github.com/rcereghini/open-gym-finder"
+                className="special"
+              >
                 View Github
               </a>
             </article>
@@ -334,15 +344,21 @@ const IndexPage = () => (
               </a>
             </article> */}
             <article>
-              <a href="https://rcc-news-feed.herokuapp.com/" className="image">
+              <a
+                href="https://wonderful-edison-f69832.netlify.com/"
+                className="image"
+              >
                 <img src={news} alt="" />
               </a>
               <h3 className="major">News Feed</h3>
-              <p> 
+              <p>
                 A tech, gaming, and comicbook newsfeed built with React, Axios,
                 and the News API.
               </p>
-              <a href="https://rcc-news-feed.herokuapp.com/" className="special">
+              <a
+                href="https://wonderful-edison-f69832.netlify.com/"
+                className="special"
+              >
                 Get the Scoop
               </a>
             </article>
@@ -365,13 +381,11 @@ const IndexPage = () => (
               </div>
               <h3 className="major">React Native Adventure Game</h3>
               <p>
-                A text-based adventure game using React Native, Expo, Firebase, Admobs, and custom art.
+                A text-based adventure game using React Native, Expo, Firebase,
+                Admobs, and custom art.
               </p>
-              <p>
-                In Development
-              </p>
+              <p>In Development</p>
             </article>
-
 
             <article
               style={
@@ -422,21 +436,27 @@ const IndexPage = () => (
             </article>
 
             <article>
-              <a href="https://medium.com/@rcereghini/landing-your-first-developer-job-8f6148e42708" className="image">
+              <a
+                href="https://medium.com/@rcereghini/landing-your-first-developer-job-8f6148e42708"
+                className="image"
+              >
                 <img src={help} alt="" />
               </a>
               <h3 className="major">Writing</h3>
               <p>
-                "Landing Your First Developer Role"<br/><br/>
-                An article describing my initial job search, the path I took to get there, and advice for beginners.
+                "Landing Your First Developer Role"
+                <br />
+                <br />
+                An article describing my initial job search, the path I took to
+                get there, and advice for beginners.
               </p>
-              <a href="https://medium.com/@rcereghini/landing-your-first-developer-job-8f6148e42708" className="special">
+              <a
+                href="https://medium.com/@rcereghini/landing-your-first-developer-job-8f6148e42708"
+                className="special"
+              >
                 Read Article
               </a>
             </article>
-
-
-            
           </section>
           {/* <ul className="actions">
             <li>
